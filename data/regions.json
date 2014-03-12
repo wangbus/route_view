@@ -1,0 +1,106 @@
+{
+  "Aiea" : {
+    "lat": 0.12345,
+    "lng": 1.12345
+  },
+  "Airport" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Ala Moana" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Downtown" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Ft. Weaver Road" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "H-1 East" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "H-1 Ewa" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "H-1 Aiea to Airport" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "H-3" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Hawaii Kai" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Kaimuki" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Kakaako" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Kalihi" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Kaneohe" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Likelike Hwy" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Liliha" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Makiki" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Moanalua Fwy" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Nimitz (Aiport)" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Nimitz (Kalihi)" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Pali Hwy" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Pearl City" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Salt Lake" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "University" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Waikiki" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  },
+  "Waipahu" : {
+    "lat": 0.12345,
+    "lng": 2.12345
+  }
+}

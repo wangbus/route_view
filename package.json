@@ -1,11 +1,14 @@
 {
   "name": "routeview",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
-    "express": ">=0.0.1",
-    "request": ">=0.0.1"
+    "express": "^3.5.0",
+    "underscore": "^1.6.0",
+    "request": "^2.34.0",
+    "ejs": "^0.8.5"
   },
   "engines": {    
-    "node": "0.6.x"
+    "node": ">=0.10.x",
+    "npm": ">=1.3"	
   }
 }

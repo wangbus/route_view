@@ -2,6 +2,8 @@ var request = require("request");
 var express = require("express");
 var app = express.createServer();
 var fs = require("fs");
+var cams = require('./data/searchable_cams.json');
+var regions = require('./data/regions.json');
 
 app.use(express.bodyParser());
 
@@ -66,6 +68,36 @@ app.all('/camera', function(req, resp){
     x.pipe(resp)
 });
 
+app.get('/api/v2/cams', function(req, res) {
+	res.json(cams);
+});
+
+app.get('/api/v2/camera*', function(req, res) {
+    var camURL = req.params[0];
+    if (camURL) {
+      var url = "http://goakamai.org/" + camURL;
+      console.log('Getting camera from: ' + url);
+      req.headers['Referer'] = "http://goakamai.org/Home.aspx";
+      var x = request(url)
+      req.pipe(x)    
+      x.pipe(res)
+    }
+    else {
+      res.end();
+    }
+});
+
+app.get('/api/v2/regions', function(req, res) {
+  var resp = {};
+  if (req.params.regionName) { 
+    var region = regions[req.params.regionName];
+    if (region) resp = region;
+  }
+  else {
+    resp = regions;
+  }
+  res.json(resp);
+});
 
 app.use('/', express.static(__dirname + '/')); 
 var port = process.env.PORT || 3005;
